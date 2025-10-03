@@ -1,8 +1,5 @@
 # Paws4Life - Animal Welfare Website
 
-## Athena Award Link
-[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
-
 ## Project Overview
 
 Paws4Life is a comprehensive website dedicated to addressing the growing problem of stray dogs and pet abandonment. This project aims to raise awareness about animal welfare, provide practical solutions for individuals and communities, and encourage responsible pet ownership.
