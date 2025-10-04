@@ -1,7 +1,3 @@
-/* ===================================
-   PAWS4LIFE INTERACTIVE FEATURES
-   =================================== */
-
 const personalizedActions = {
   student: [
     "Start an animal welfare club at your school",
@@ -29,7 +25,6 @@ const personalizedActions = {
   ]
 };
 
-// Random animal welfare facts
 const animalFacts = [
   "Approximately 3.1 million dogs enter U.S. animal shelters every year.",
   "Spaying or neutering your pet can help reduce overpopulation by preventing millions of unwanted births.",
@@ -49,7 +44,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Function to create personalized action generator
 function createPersonalizedSection() {
     const takeActionSection = document.querySelector('.take-action .container');
     
@@ -71,11 +65,9 @@ function createPersonalizedSection() {
     
     takeActionSection.appendChild(personalizedDiv);
     
-    // Add event listener for the button
     document.getElementById('generateAction').addEventListener('click', generatePersonalizedAction);
 }
 
-// Function to create fact generator
 function createFactGenerator() {
     const takeActionSection = document.querySelector('.take-action .container');
     
@@ -90,11 +82,9 @@ function createFactGenerator() {
     
     takeActionSection.appendChild(factDiv);
     
-    // Add event listener for fact generator
     document.getElementById('generateFact').addEventListener('click', generateRandomFact);
 }
 
-// Function to generate personalized action
 function generatePersonalizedAction() {
     const userType = document.getElementById('userType').value;
     const resultDiv = document.getElementById('personalizedResult');
@@ -116,7 +106,6 @@ function generatePersonalizedAction() {
     `;
 }
 
-// Function to generate random fact
 function generateRandomFact() {
     const factDiv = document.getElementById('factResult');
     const randomFact = animalFacts[Math.floor(Math.random() * animalFacts.length)];
