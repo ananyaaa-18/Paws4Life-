@@ -1,12 +1,6 @@
-/* ===================================
-   PAWS4LIFE WEBSITE STYLES
-   Main stylesheet for animal welfare website
-   =================================== */
-
 /* Import Google Fonts - Inter for body text, Playfair Display for headings */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap');
 
-/* CSS Variables for Color Scheme - Earth-tone palette for animal welfare theme */
 :root {
   --sage-green: #9DCDC0;
   --warm-brown: #AC9969;
@@ -19,11 +13,6 @@
   --shadow: rgba(0, 0, 0, 0.08);
 }
 
-/* ===================================
-   RESET AND BASE STYLES
-   =================================== */
-
-/* Universal reset for consistent styling across browsers */
 * {
   margin: 0;
   padding: 0;
@@ -44,12 +33,7 @@ body {
   padding: 0 20px;
 }
 
-/* ===================================
-   NAVIGATION BAR STYLES
-   Fixed navigation with Paws4Life branding
-   =================================== */
 
-/* Main navigation container - fixed at top */
 .navbar {
   background: var(--white);
   box-shadow: 0 1px 3px var(--shadow);
@@ -242,7 +226,6 @@ body {
   color: var(--text-light);
 }
 
-/* Contact Methods */
 .contact-methods {
   background: rgba(255, 255, 255, 0.95);
   padding: 2rem;
@@ -291,12 +274,7 @@ body {
   border-top: 2px solid rgba(172, 153, 105, 0.3);
 }
 
-/* ===================================
-   SOLUTIONS SECTION STYLES
-   Call-to-action header for solutions
-   =================================== */
 
-/* Solutions intro section with gradient background */
 .solutions {
   padding: 80px 20px 60px;
   background: var(--light-yellow);
@@ -317,7 +295,6 @@ body {
   margin: 0 auto;
 }
 
-/* Individual Actions */
 .individual-actions {
   padding: 80px 20px;
   background: var(--white);
@@ -386,7 +363,6 @@ body {
   font-weight: bold;
 }
 
-/* Community Solutions */
 .community-solutions {
   padding: 80px 20px;
   background: var(--soft-yellow);
@@ -446,7 +422,6 @@ body {
   font-weight: bold;
 }
 
-/* Success Stories */
 .success-stories {
   padding: 80px 20px;
   background: var(--mint-green);
@@ -486,7 +461,6 @@ body {
   line-height: 1.6;
 }
 
-/* Take Action */
 .take-action {
   padding: 80px 20px;
   background: var(--sage-green);
@@ -507,12 +481,7 @@ body {
   margin: 0 auto;
 }
 
-/* ===================================
-   INTERACTIVE FEATURES STYLES
-   Personalized actions and fact generator
-   =================================== */
 
-/* Personalized Actions Section */
 .personalized-actions,
 .fact-generator {
   background: var(--white);
@@ -536,7 +505,7 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Form Elements Styling */
+
 .personalized-actions select {
   padding: 0.8rem 1rem;
   margin: 0.5rem;
@@ -566,7 +535,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* Result Display Styling */
+
 .personalized-result,
 .fact-result {
   margin-top: 1.5rem;
@@ -594,7 +563,7 @@ body {
   font-style: italic;
 }
 
-/* Resources Section for Portfolio Page */
+
 .resources-section {
   padding: 4rem 2rem;
   max-width: 1200px;
@@ -642,11 +611,7 @@ body {
   line-height: 1.6;
 }
 
-/* ===================================
-   FOOTER STYLES
-   =================================== */
 
-/* Footer section with site branding */
 .footer {
   background: var(--warm-brown);
   color: var(--white);
@@ -659,7 +624,6 @@ body {
   opacity: 0.9;
 }
 
-/* Useful Resources Section */
 .useful-resources {
   padding: 80px 20px;
   background: var(--white);
@@ -713,11 +677,7 @@ body {
   margin: 0;
 }
 
-/* ===================================
-   NEW PAGE SECTIONS STYLES
-   =================================== */
 
-/* Statistics Page Styles */
 .statistics-header {
   padding: 100px 20px 60px;
   background: var(--light-yellow);
@@ -738,7 +698,6 @@ body {
   margin: 0 auto;
 }
 
-/* Key Statistics Grid */
 .key-stats {
   padding: 80px 20px;
   background: var(--white);
@@ -780,7 +739,6 @@ body {
   font-weight: 500;
 }
 
-/* Charts Section */
 .charts-section {
   padding: 80px 20px;
   background: var(--soft-yellow);
@@ -822,7 +780,6 @@ body {
   font-style: italic;
 }
 
-/* Impact Stories */
 .impact-stories {
   padding: 80px 20px;
   background: var(--mint-green);
@@ -836,7 +793,6 @@ body {
   margin-bottom: 3rem;
 }
 
-/* CTA Buttons */
 .cta-buttons {
   display: flex;
   gap: 2rem;
@@ -860,7 +816,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .first-content {
     grid-template-columns: 1fr;
